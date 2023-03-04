@@ -6,6 +6,7 @@ ledPin = 11
 
 def setup():
     GPIO.setmode(GPIO.BOARD)
+    
     GPIO.setup(ledPin, GPIO.OUT)
     GPIO.output(ledPin, GPIO.LOW)
     print('Pin #%d set to OUTPUT mode.' % ledPin)
