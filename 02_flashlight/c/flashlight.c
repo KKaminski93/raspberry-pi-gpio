@@ -4,6 +4,8 @@
 #define ledPin 0
 #define buttonPin 1
 
+int ledState = LOW;
+
 void main(void)
 {
 	/* Required to initialize WiringPi */
@@ -20,13 +22,23 @@ void main(void)
 	{
 		if (digitalRead(buttonPin) == LOW)
 		{
-			printf("Turning LED on...\n");
 			digitalWrite(ledPin, HIGH);
+
+			if (ledState == LOW)
+			{
+				printf("Turning LED on...\n");
+				ledState = HIGH;
+			}
 		}
 		else
 		{
-			printf("Turning LED off...\n");
 			digitalWrite(ledPin, LOW);
+
+			if (ledState == HIGH)
+			{
+				printf("Turning LED off...\n");
+				ledState = LOW;
+			}
 		}
 	}
 }
