@@ -1,7 +1,5 @@
 # 02: Flashlight
-The purpose of this project is to connect an LED to the Raspberry Pi GPIO and control it using a push-button switch. There are two versions of the source code so that the button can be configured as either a momentary or a toggle switch.
-
-The type of push-button switch used in this project is called a **single pole, single throw, normally closed** switch, or **SPST NC** for short.
+The purpose of this project is to connect an LED to the Raspberry Pi GPIO and control it using a push-button switch. There are two versions of the source code so that the button can be configured as either a momentary or a toggle switch. The type of push-button switch used in this project is called a **single pole, single throw** switch, or **SPST** for short.
 
 ## Wiring Schematic
 ![Wiring Schematic](assets/schematic.png)
