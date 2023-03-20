@@ -1,4 +1,4 @@
-# 01: Blinking LED
+# 01: Simple LED
 The purpose of this project is to connect an LED to the Raspberry Pi GPIO and make it blink on/off until the user exits the program.
 
 ## Wiring Schematic

@@ -1,4 +1,4 @@
-# 03: Flashlight
+# 03: LED Bar Graph
 The purpose of this project is to connect an LED bar graph to the Raspberry Pi GPIO and create the effect of flowing water by turning each LED on/off in sequence.
 
 ## Wiring Schematic
